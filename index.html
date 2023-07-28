@@ -2,11 +2,14 @@
 <html lang="es">
 
 <head>
+
+
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MASTER EN CSS</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Byron Pilligua Team</title>
+    <link rel="shortcut icon" href="./images/techotech2.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 
@@ -45,13 +48,14 @@
                     <a href="#" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="https://www.facebook.com/PilliguaByron98" target="_blank" class="nav__links">Acerca de</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <!-- Modificar el enlace para dirigirse a la API de WhatsApp -->
+                    <a href="https://api.whatsapp.com/send?phone=593963747272" target="_blank" class="nav__links">Contacto</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
+                    <a href="https://www.facebook.com/PilliguaByron98" target="_blank" class="nav__links">Blog</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -71,32 +75,49 @@
         </section>
     </header>
 
+    <section class="testimony">
+        <div class="testimony__container container">
+            <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+            <section class="testimony__body testimony__body--show" data-id="1">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Mi nombre es Byron Pilligua, <span class="testimony__course">Egresado en Tics.</span></h2>
+                    <p class="testimony__review">Hola Soy Byron Gregorio Pilligua Espinal, tengo 25 años, Soy un estudiante amante a las tecnologias, soy egresado de la 
+                        carrera de Tics de la Universidad Laica Eloy Alfaro de Manabí (ULEAM MANTA), soy ecuatoriano y vivo en la comuna pile, un sitio del Canton Montecristi 
+                    de la provincia de Manabí</p>
+                </div>
+
+                <figure class="testimony__picture">
+                    <img src="./images/face5.png" class="testimony__img">
+                </figure>
+            </section>
+
+
+            <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+        </div>
+    </section>
     <main>
         <section class="container about">
-            <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
-            <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
-                Position, Animaciones, Box Model y más)</p>
+            <h2 class="subtitle">¿Servicios Disponibles?</h2>
+            <p class="about__paragraph">Asesoria y servicios que te pueden ayudar a crecer a ti y tu marca</p>
 
             <div class="about__main">
                 <article class="about__icons">
                     <img src="./images/shapes.svg" class="about__icon">
-                    <h3 class="about__title">CSS Layouts</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <h3 class="about__title">Complementos Tics</h3>
+                    <p class="about__paragrah">Mantenimiento de computadores </p>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/paint.svg" class="about__icon">
-                    <h3 class="about__title">Animaciones</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <h3 class="about__title">Diseño</h3>
+                    <p class="about__paragrah">Diseño grafico y web</p>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/code.svg" class="about__icon">
-                    <h3 class="about__title">Sass</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <h3 class="about__title">Dev</h3>
+                    <p class="about__paragrah">Desarrollo de software </p>
                 </article>
             </div>
         </section>
@@ -104,196 +125,73 @@
         <section class="knowledge">
             <div class="knowledge__container container">
                 <div class="knowledege__texts">
-                    <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                    <a href="#" class="cta">Entra al curso</a>
+                    <h2 class="subtitle">PilliguaTech Team</h2>
+                    <p class="knowledge__paragraph">Te ofrece un sin numero de servicios que puedes usar</p>
+                    <a href="#" class="cta">mas informacion</a>
                 </div>
 
                 <figure class="knowledge__picture">
-                    <img src="./images/macbook.png" class="knowledge__img">
+                    <img src="./images/PILLIGUATECH.PNG" class="knowledge__img">
                 </figure>
             </div>
         </section>
 
         <section class="price container">
-            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+            <h2 class="subtitle">Servicio que ofrecemos</h2>
 
             <div class="price__table">
                 <div class="price__element">
-                    <p class="price__name">Flexbox</p>
-                    <h3 class="price__price">Free</h3>
+                    <p class="price__name">Servicio Tecnico Preventivo</p>
+                    <h3 class="price__price">$20</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Flexbox</p>
-                        <p class="price__features">Layouts</p>
-                        <p class="price__features">Responsive</p>
+                        <p class="price__features">Sitema Operativo</p>
+                        <p class="price__features">Harware</p>
+                        <p class="price__features">Sofware</p>
                     </div>
+        <!-- Modificar el enlace para dirigirse a la API de WhatsApp -->
+         <a href="https://api.whatsapp.com/send?phone=593963747272" target="_blank" class="price__cta">Empieza ahora</a>
+            </div>
 
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
 
 
                 <div class="price__element price__element--best">
-                    <p class="price__name">Grid</p>
-                    <h3 class="price__price">$30/mes</h3>
+                    <p class="price__name">Streaming</p>
+                    <h3 class="price__price">$9</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Grid</p>
-                        <p class="price__features">Implicit Grid</p>
-                        <p class="price__features">Responsive</p>
+                        <p class="price__features">Magistv</p>
+                        <p class="price__features">Netflix</p>
+                        <p class="price__features">Star +</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
+                     <!-- Modificar el enlace para dirigirse a la API de WhatsApp -->
+            <a href="https://api.whatsapp.com/send?phone=593963747272" target="_blank" class="price__cta">Empieza ahora</a>
+        </div>
+
 
 
                 <div class="price__element">
-                    <p class="price__name">Animaciones</p>
-                    <h3 class="price__price">$40/mes</h3>
+                    <p class="price__name">Desarrollo</p>
+                    <h3 class="price__price">$40</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Animation</p>
-                        <p class="price__features">Transition</p>
-                        <p class="price__features">Render Website</p>
+                        <p class="price__features">Pagina web</p>
+                        <p class="price__features">App Movil</p>
+                        <p class="price__features">E-comerce</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
+                    <!-- Modificar el enlace para dirigirse a la API de WhatsApp -->
+            <a href="https://api.whatsapp.com/send?phone=593963747272" target="_blank" class="price__cta">Empieza ahora</a>
+        </div>
+
 
 
             </div>
         </section>
 
-        <section class="testimony">
-            <div class="testimony__container container">
-                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
 
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante
-                                de CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="2">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face2.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="3">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face3.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="4">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face4.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-
-                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
-            </div>
-        </section>
-
-        <section class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
-
-            <section class="questions__container">
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué aprenderé en este curso?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS GRID?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="questions__offer">
-                <h2 class="subtitle">¿Puedes contactarme para resolver alguna duda?</h2>
-                <p class="questions__copy">Estare gustoso poderte ayudar en tu proyecto o en querer adquirir algun servicio de lo que ofresco no dudes en contactarme estare gustoso ayudarte creo que 
-                    sere de buena ayuda para ti que esperas.</p>
-                <a href="#" class="cta">Aprende ahora</a>
-            </section>
-        </section>
+       
     </main>
 
     <footer class="footer">
@@ -306,33 +204,84 @@
                         <a href="#" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="https://www.facebook.com/PilliguaByron98" target="_blank" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <!-- Modificar el enlace para dirigirse a la API de WhatsApp -->
+                        <a href="https://api.whatsapp.com/send?phone=593963747272" target="_blank" class="nav__links">Contacto</a>
                     </li>
+                    
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
+                        <a href="https://www.facebook.com/PilliguaByron98" target="_blank" class="nav__links">Blog</a>
                     </li>
                 </ul>
             </nav>
 
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
-                </div>
-            </form>
+            
+             <!-- Agregar el mensaje "Enviado" dentro de esta sección -->
+        <div id="sentMessage"></div>
+
+        <!-- Mostrar el formulario sin cambios -->
+        <form class="footer__form" action="https://formspree.io/f/xjvqgbjo" method="POST" onsubmit="return onSubmitForm(event)">
+            <h2 class="footer__newsletter">Envianos un correo</h2>
+            <div class="footer__inputs">
+                <input type="email" placeholder="Email:" class="footer__input" name="_replyto" id="emailInput">
+                <input type="submit" value="Registrate" class="footer__submit">
+            </div>
+
+        </form>
+
+
+        <script>
+            function onSubmitForm(event) {
+                event.preventDefault(); // Evitar que se envíe el formulario de forma predeterminada
+                var form = event.target;
+                var formData = new FormData(form);
+                var xhr = new XMLHttpRequest();
+    
+                xhr.open(form.method, form.action, true);
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                    if (xhr.status === 200) {
+                        var emailInput = document.getElementById('emailInput');
+                        emailInput.placeholder = 'Enviado.......';
+                        form.reset(); // Reiniciar el formulario después de enviarlo
+                        document.getElementById('sentMessage').style.display = 'block'; // Mostrar el mensaje "Enviado"
+                        setTimeout(function() {
+                            emailInput.placeholder = 'Email'; // Volver al texto original después de unos segundos
+                            document.getElementById('sentMessage').style.display = 'none'; // Ocultar el mensaje después de unos segundos
+                        }, 3000); // Ocultar el mensaje después de 3 segundos (puedes ajustar este valor según tus preferencias)
+                    } else {
+                        alert('Error al enviar el formulario. Por favor, inténtalo nuevamente.'); // Mostrar un mensaje de error si el envío falla
+                    }
+                };
+    
+                xhr.send(formData);
+                return false;
+            }
+        </script>
+        
+            
+            
         </section>
 
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+                <a href="https://www.facebook.com/PilliguaByron98" class="footer__icons">
+                    <img src="./images/facebook.svg" class="footer__img">
+                  </a>
+                  
+                <a href="https://twitter.com/byronpilligua98?s=11" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com/@byronpilligua769" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+
+                    <!-- Agregar enlace de WhatsApp y su respectivo ícono -->
+        <a href="https://api.whatsapp.com/send?phone=593963747272" class="footer__icons">
+            <img src="./images/—Pngtree—white whatsapp icon png_3562063.png" class="footer__img">
+        </a>
             </div>
 
+        
             <h3 class="footer__copyright">Derechos reservados &copy; Team PilliguaTech soft</h3>
         </section>
     </footer>

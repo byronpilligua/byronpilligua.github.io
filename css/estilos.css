@@ -9,6 +9,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -480,6 +482,7 @@ body {
 
 .footer__img{
     width: 30px;
+    color: #cc0505;
 }
 
 /* Media queries */
